@@ -1,5 +1,5 @@
 const company = {
-    name: "company Name",
+    name: "Growth Masters",
     contact: "+91 8014858568",
     address: "4-1-1240/2, Bogulkunta, Abids Hyderabad, Telangana 500001",
     email: "support@gmail.com",
