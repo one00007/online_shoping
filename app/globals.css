@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    text-decoration: none;
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 0px;
+    background: #f1f1f1;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #ffffff;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #ffffff;
+}
+
+
+.overlay::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.500);
+}
+
+/* map css */
+/* .mapouter {
+    position: relative;
+    text-align: right;
+    width: 374px;
+    height: 226px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    width: 374px;
+    height: 226px;
+}
+
+.gmap_iframe {
+    width: 374px !important;
+    height: 226px !important;
+} */
+
+#canvas-for-googlemap img {
+    max-height: none;
+    max-width: none !important;
+    background: none !important;
+}
